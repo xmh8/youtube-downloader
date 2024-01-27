@@ -4,7 +4,6 @@ const chalk = require("chalk");
 const input = require("input");
 const ytdl = require("ytdl-core");
 const progress = require("cli-progress");
-const { type } = require("os");
 
 const youtubeASCII = chalk.red(` █████ █████                     ███████████            █████             
 ░░███ ░░███                     ░█░░░███░░░█           ░░███              
@@ -161,7 +160,4 @@ async function start() {
   });
 }
 
-async function startDiscordRPC() {}
-
 start();
-startDiscordRPC();
