@@ -1,1 +1,4 @@
 node_modules
+downloads/*.mp4
+downloads/*.m4a
+downloads/*.webm
