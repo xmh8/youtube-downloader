@@ -161,5 +161,7 @@ async function start() {
   });
 }
 
+async function startDiscordRPC() {}
+
 start();
 startDiscordRPC();
